@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divo Wiguna | OSS Engineer</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+body { font-family: 'Montserrat', sans-serif; scroll-behavior: smooth; }
+.hero-bg {
+  background: radial-gradient(circle at 20% 20%, #1e3a8a, #0f172a 60%);
+}
+.glass {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+</head>
+
+<body class="bg-slate-950 text-gray-200">
+
+<!-- NAVBAR -->
+<nav class="fixed w-full top-0 bg-black/40 backdrop-blur-md z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-white font-bold text-xl tracking-wide">DW</h1>
+    <div class="space-x-8 hidden md:block text-sm font-semibold">
+      <a href="#about" class="hover:text-blue-400">About</a>
+      <a href="#expertise" class="hover:text-blue-400">Expertise</a>
+      <a href="#experience" class="hover:text-blue-400">Journey</a>
+      <a href="#contact" class="hover:text-blue-400">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-bg min-h-screen flex items-center justify-center text-center px-6 pt-24">
+  <div class="fade-up">
+    <img src="https://via.placeholder.com/180" class="w-44 h-44 mx-auto rounded-full border-4 border-blue-500 shadow-2xl mb-8">
+    <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-4">Divo Wiguna</h1>
+    <p class="text-2xl text-blue-400 font-semibold mb-6">OSS Engineer • Network Performance Specialist</p>
+    <p class="max-w-2xl mx-auto text-gray-400 leading-relaxed">
+      I help telecommunication companies maintain network excellence through KPI monitoring, 
+      drive test validation, and real-time OSS analysis. Passionate about data accuracy, 
+      performance optimization, and delivering measurable results.
+    </p>
+    <div class="mt-10 space-x-4">
+      <a href="#contact" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full font-semibold transition">Work With Me</a>
+      <a href="#experience" class="border border-blue-500 px-8 py-3 rounded-full hover:bg-blue-600 transition">See My Journey</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-24 px-6 text-center">
+  <div class="max-w-4xl mx-auto fade-up">
+    <h2 class="text-4xl font-bold text-blue-400 mb-8">Who I Am</h2>
+    <p class="text-gray-400 leading-relaxed text-lg">
+      With over 6 years in the telecommunication industry, I specialize in OSS monitoring, 
+      KPI scoring, network benchmarking, and troubleshooting performance issues. 
+      I thrive in fast-paced environments and consistently deliver detailed, accurate reporting 
+      for large-scale regional projects across Telkomsel, XL, and Indosat networks.
+    </p>
+  </div>
+</section>
+
+<!-- EXPERTISE -->
+<section id="expertise" class="py-24 px-6 bg-slate-900">
+  <h2 class="text-4xl font-bold text-center text-blue-400 mb-16 fade-up">My Expertise</h2>
+  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+
+    <div class="glass p-10 rounded-2xl shadow-xl fade-up">
+      <h3 class="text-xl font-semibold text-white mb-4">OSS & KPI Analytics</h3>
+      <p class="text-gray-400">
+        Real-time monitoring, event scoring, interference alarm reporting, 
+        and CHI IBC performance evaluation.
+      </p>
+    </div>
+
+    <div class="glass p-10 rounded-2xl shadow-xl fade-up">
+      <h3 class="text-xl font-semibold text-white mb-4">Drive Test Validation</h3>
+      <p class="text-gray-400">
+        Indoor walktest, VIP complaint investigation, bad spot analysis, 
+        repeater installation tracking.
+      </p>
+    </div>
+
+    <div class="glass p-10 rounded-2xl shadow-xl fade-up">
+      <h3 class="text-xl font-semibold text-white mb-4">Technical Proficiency</h3>
+      <p class="text-gray-400">
+        TEMS, Nemo, Actix, SQL, Excel Dashboarding, Visio, iMaster Huawei.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="py-24 px-6 text-center">
+  <h2 class="text-4xl font-bold text-blue-400 mb-16 fade-up">Professional Journey</h2>
+  <div class="max-w-3xl mx-auto space-y-14 text-left">
+
+    <div class="fade-up">
+      <h3 class="text-2xl font-semibold text-white">PT. Picotel Nusantara</h3>
+      <p class="text-blue-400 mb-3">Feb 2022 - Present</p>
+      <p class="text-gray-400">
+        Leading KPI event monitoring, daily interference reporting, CR execution, 
+        and dashboard performance evaluation for VIP NVEEH Telkomsel Region Jabodetabek.
+      </p>
+    </div>
+
+    <div class="fade-up">
+      <h3 class="text-2xl font-semibold text-white">Regional Telecommunication Projects</h3>
+      <p class="text-blue-400 mb-3">2015 - 2022</p>
+      <p class="text-gray-400">
+        Conducted benchmarking, network performance analysis, drive test reporting, 
+        and repeater replacement tracking across Telkomsel, XL, and Indosat.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-24 px-6 bg-slate-900 text-center">
+  <h2 class="text-4xl font-bold text-blue-400 mb-10 fade-up">Let’s Connect</h2>
+  <p class="text-gray-300 text-lg">Email: divowiguna@gmail.com</p>
+  <p class="text-gray-300 mt-2 text-lg">Phone: 082113454661</p>
+  <p class="text-gray-300 mt-2 text-lg">Instagram: @divowiguna</p>
+
+  <div class="mt-10">
+    <a href="mailto:divowiguna@gmail.com" class="bg-blue-600 hover:bg-blue-700 px-10 py-4 rounded-full font-semibold transition">
+      Start a Conversation
+    </a>
+  </div>
+</section>
+
+<footer class="py-8 text-center text-gray-500 text-sm">
+  © 2026 Divo Wiguna — Personal Branding Portfolio
+</footer>
+
+<script>
+const elements = document.querySelectorAll('.fade-up');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+}, { threshold: 0.2 });
+
+elements.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
